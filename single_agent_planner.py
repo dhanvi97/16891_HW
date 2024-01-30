@@ -33,6 +33,8 @@ def is_valid_motion(old_loc, new_loc):
 
 def get_sum_of_cost(paths):
     rst = 0
+    if paths is None:
+        return -1
     for path in paths:
         rst += len(path) - 1
     return rst

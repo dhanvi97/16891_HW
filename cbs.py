@@ -119,6 +119,7 @@ class CBSSolver(object):
         #                standard_splitting function). Add a new child node to your open list for each constraint
         #           Ensure to create a copy of any objects that your child nodes might inherit
 
+        # These are just to print debug output - can be modified once you implement the high-level search
         self.print_results(root)
         return root['paths']
 

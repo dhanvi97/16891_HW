@@ -194,7 +194,7 @@ class PBSSolver(object):
             # Task 4.2:  # Add nodes to stack from heap in non increasing order of cost
             # TODO
 
-        raise BaseException('No solutions')
+        return None
 
 
     def print_results(self, node):

@@ -35,7 +35,7 @@ class JointStateSolver(object):
         path = # TODO
 
         if path is None:
-                raise BaseException('No solutions')
+            return None
                 
         # Task 1.1: Convert the joint state path to a list of paths for each agent
         # TODO
