@@ -129,8 +129,9 @@ class PBSSolver(object):
         
         ##############################
         # Task 4.2: Initialize the root node dict, what will be the initial priority pairs for standard PBS?
-        #      
-        root = # TODO
+        #
+        # TODO      
+        root = None
 
         ##############################
         # Task 4.2: Find initial path for each agent
@@ -151,7 +152,8 @@ class PBSSolver(object):
             ##############################
             # Task 4.2: Get next node from stack
             #     
-            next_node = #TODO
+            # TODO
+            next_node = None
 
             # print expanded node info
             print("Expanded node cost: {} priority {} collisions {}".format(next_node['cost'],(next_node['priority_pairs']),(next_node['collisions'])))

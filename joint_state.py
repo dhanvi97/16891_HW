@@ -31,8 +31,8 @@ class JointStateSolver(object):
 
         ##############################
         # Task 1.1: Read function prototype and call joint_state_a_star here
-
-        path = # TODO
+        # TODO
+        path = None
 
         if path is None:
             return None
